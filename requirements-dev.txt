@@ -1,0 +1,3 @@
+# Runtime: none. burnmap is pure standard library by design.
+# Development / CI only:
+pytest>=7.4

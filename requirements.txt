@@ -1,0 +1,4 @@
+# burnmap has zero runtime dependencies and runs on a bare Python 3.9+ install.
+# This file exists so tooling and CI can install it the usual way.
+# Install for development (includes the test runner):
+-r requirements-dev.txt
