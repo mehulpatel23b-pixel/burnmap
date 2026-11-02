@@ -75,7 +75,7 @@ cd burnmap
 ```
 
 The `./burnmap` launcher adds `src/` to `sys.path`, so it works on a bare Python
-3.9+ install with nothing else present.
+3.10+ install with nothing else present.
 
 ### Install as a command
 
@@ -94,7 +94,7 @@ python -m pytest
 
 ### Requirements
 
-Python 3.9 or newer. That is the entire list. No API keys, no network calls, no
+Python 3.10 or newer. That is the entire list. No API keys, no network calls, no
 telemetry, no vendor SDK. Your session logs never leave the machine.
 
 ---
@@ -260,7 +260,7 @@ burnmap/
 ├── requirements-dev.txt     # pytest
 ├── LICENSE                  # MIT
 ├── .gitignore
-├── .github/workflows/ci.yml # tests on 3.9 - 3.13
+├── .github/workflows/ci.yml # tests on 3.10 - 3.13
 ├── sample/
 │   └── session.jsonl        # realistic mixed-format 15-turn session
 ├── src/burnmap/
